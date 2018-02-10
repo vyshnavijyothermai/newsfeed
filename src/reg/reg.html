@@ -3,6 +3,7 @@
         <div class="row">
 <div class="col-6 offset-3" style="margin-top:30px;">
 <form ng-submit="RegCtrl.doReg();">
+  <h1>Register now for free</h1>
         <div class="form-group">
           <label for="exampleFormControlInput1">name</label>
           <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="vyshnavi:ex" ng-model="RegCtrl.name" required>
@@ -14,6 +15,12 @@
               <div class="form-group">
                     <label for="exampleInputPassword1">Password</label>
                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" ng-model="RegCtrl.password" required>
+                        
+          
+          </div>
+          div class="form-group">
+                    <label for="exampleInputPassword1">Confrom Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" ng-model="RegCtrl.cpassword" required>
                         
           
           </div>
